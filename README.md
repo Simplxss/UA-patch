@@ -2,11 +2,7 @@
 
 now support version(both cn and os):
 
-3.0.50
-
-3.0.51
-
-3.0.52
+3.0.5X
 
 # Usage
 
