@@ -12,7 +12,17 @@ try
     UA = File.ReadAllBytes("UserAssembly.dll");
     UA_CN = File.ReadAllBytes("UA CN.txt");
     UA_OS = File.ReadAllBytes("UA OS.txt");
-    UA_key = File.ReadAllBytes("UA key.txt");
+
+    if (args.Length != 0)
+    {
+        Console.WriteLine("Used key: " + args[0]);
+        UA_key = File.ReadAllBytes(args[0]);
+    }
+    else
+    {
+        Console.WriteLine("Used key: UA key.txt");
+        UA_key = File.ReadAllBytes("UA key.txt");
+    }
 }
 catch (IOException e)
 {
