@@ -4,6 +4,10 @@ now support version(both cn and os):
 
 3.0.5X
 
+3.1.X
+
+3.2.0
+
 # Usage
 
 1.put UserAssembly.dll in this directory.
