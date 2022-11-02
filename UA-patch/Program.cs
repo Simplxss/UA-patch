@@ -13,12 +13,12 @@ try
     UA_CN = File.ReadAllBytes("UA CN.txt");
     UA_OS = File.ReadAllBytes("UA OS.txt");
 
-    if (args.Length != 0)
+    try
     {
         Console.WriteLine("Used key: " + args[0]);
         UA_key = File.ReadAllBytes(args[0]);
     }
-    else
+    catch
     {
         Console.WriteLine("Used key: UA key.txt");
         UA_key = File.ReadAllBytes("UA key.txt");
