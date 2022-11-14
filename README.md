@@ -1,3 +1,7 @@
+#NOTICE
+
+**NOT SUPPORT 3.2.5X AND ABOVE.**
+
 # UA-patch
 
 now support version(both cn and os):
